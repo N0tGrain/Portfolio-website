@@ -1,0 +1,51 @@
+<footer class="bg-black/60 backdrop-blur-md text-white mt-auto border-t border-emerald-900/30">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="grid grid-cols 1 md:grid-cols-3 gap-8">
+      <!-- About -->
+      <div>
+        <h3 class="text-xl font-semibold mb-4 text-emerald-400">About</h3>
+        <p class="text-green-200">
+          A passionate Frontend/Web Developer student creating beautiful and functional web experiences.
+        </p>
+      </div>
+
+      <!-- Quick links -->
+      <div>
+        <h3 class="text-xl font-semibold mb-4 text-emerald-400">Quick Links</h3>
+        <ul class="space-y-2">
+          <li>
+            <a [routerLink]="'/'" class="text-green-200 hover:text-emerald-400 transition-colors">Home</a>
+          </li>
+          <li>
+            <a [routerLink]="'/about'" class="text-green-200 hover:text-emerald-400 transition-colors">About</a>
+          </li>
+          <li>
+            <a [routerLink]="'/projects'" class="text-green-200 hover:text-emerald-400 transition-colors">Projects</a>
+          </li>
+          <li>
+            <a [routerLink]="'/contact'" class="text-green-200 hover:text-emerald-400 transition-colors">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Socials -->
+      <div>
+        <h3 class="text-xl font-semibold mb-4 text-emerald-400">Let's Connect!</h3>
+        <div class="flex space-x-4">
+          <a href="https://github.com/N0tGrain" target="_blank" rel="noopener noreferrer" class="w-10 h-10 bg-[#1a3a2a] hover:bg-[#0f2419] rounded-full flex items-center justify-center transition-colors border border-emerald-900/50">
+            <i class="fa fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/kaylee-hoogwerf-5707bb2b3/?locale=en-US" target="_blank" rel="noopener noreferrer" class="w-10 h-10 bg-[#1a3a2a] hover:bg-[#0f2419] rounded-full flex items-center justify-center transition-colors border border-emerald-900/50">
+            <i class="fa fa-linkedin"></i>
+          </a>
+          <a href="https://www.instagram.com/n0t_grain/" target="_blank" rel="noopener noreferrer" class="w-10 h-10 bg-[#1a3a2a] hover:bg-[#0f2419] rounded-full flex items-center justify-center transition-colors border border-emerald-900/50">
+            <i class="fa fa-instagram"></i>
+          </a>
+          <a href="mailto:s1152274@student.hsleiden.nl" target="_blank" rel="noopener noreferrer" class="w-10 h-10 bg-[#1a3a2a] hover:bg-[#0f2419] rounded-full flex items-center justify-center transition-colors border border-emerald-900/50">
+            <i class="fa fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
