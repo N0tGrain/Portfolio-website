@@ -1,0 +1,48 @@
+<nav class="bg-black/60 backdrop-bur-md shadow-lg sticky top-0 z-50 border-b border-emerald-900/30">
+  <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+    <div class="flex justify-between items-center h-16 p-4">
+      <!-- LOGO -->
+      <a routerLink="/" class="flex items-center space-x-2">
+        <div class="w-10 h10 bg-[#1a32a2a] rounded-full flex items-center justify-center border border-emerald-900/50">
+          <span class="text-emerald-400 font-bold text-xl">KH</span>
+        </div>
+        <span class="text-white font-semibold text-xl">Portfolio</span>
+      </a>
+
+      <!-- Desktop -->
+      <div class="hidden md:flex space-x-8">
+        @for (link of navLinks; track link.path) {
+          <a [routerLink]="link.path" [ngClass]="{
+        'text-emerald-400 border-b-2 border-emerald-400': isActive(link.path),
+        'text-green-100 hover:text-emerald-300': !isActive(link.path)
+        }" class="text-lg transition-colors duration-200">
+            {{link.label}}
+          </a>
+        }
+      </div>
+
+      <!-- Mobile -->
+      <button (click)="toggleMenu()" class="md:hidden text-white p2">
+        @if (!isMenuOpen) {
+          <span>☰</span>
+        } @else {
+          <span >✕</span>
+        }
+      </button>
+    </div>
+
+    @if (isMenuOpen) {
+      <div class="md:hidden pb-4 bg-black/40 backdrop-blur-sm rounded-lg mt-2">
+        @for (link of navLinks; track link.path) {
+          <a [routerLink]="link.path" (click)="closeMenu()" [ngClass]="{
+          'text-emerald-400 bg-emerald-900/30': isActive(link.path),
+          'text-green-100 hover:bg-emerald-900/20': !isActive(link.path)
+          }"
+          class="block py-2 px-4 text-lg transition-colors duration-200">
+            {{link.label}}
+          </a>
+        }
+      </div>
+    }
+  </div>
+</nav>
