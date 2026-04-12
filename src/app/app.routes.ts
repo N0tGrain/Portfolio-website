@@ -3,6 +3,7 @@ import {Home} from './pages/home/home';
 import {About} from './pages/about/about';
 import {Projects} from './pages/projects/projects';
 import {Contact} from './pages/contact/contact';
+import { ProjectDetailPage } from './pages/project-detail-page/project-detail-page';
 
 export const routes: Routes = [
   {
@@ -13,7 +14,10 @@ export const routes: Routes = [
     path: 'projects',
     component: Projects,
   },
-  // Possibly add a project information page?
+  {
+    path: 'projects/:id',
+    component: ProjectDetailPage,
+  },
   {
     path: 'contact',
     component: Contact,

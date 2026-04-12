@@ -1,0 +1,56 @@
+[
+  {
+    "id": "ecommerce",
+    "title": "Icehockey E-Commerce Application",
+    "description": "A fullstack, responsive and colorblind accessible icehockey e-commerce application.",
+    "image": "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnR0aWNycWlnZ3RqdHNyemh1eXp4MjhzZnQ1NnowOHdyY3NzYmNlZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sthmCnCpfr8M8jtTQy/giphy.gif",
+    "tags": ["Angular (Typescript)", "HTML", "SCSS", "Springboot (Java)", "PostgreSQL", "Docker"]
+  },
+  {
+    "id": "ami-mobile",
+    "title": "Educational Mobile Application",
+    "description": "An Flutter (Dart) educational mobile application, including an AI chat. Build to support students doing literature research.",
+    "image": "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnR0aWNycWlnZ3RqdHNyemh1eXp4MjhzZnQ1NnowOHdyY3NzYmNlZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sthmCnCpfr8M8jtTQy/giphy.gif",
+    "tags": ["Flutter (Dart)"]
+  },
+  {
+    "id": "portfolio",
+    "title": "Interactive Portfolio Website",
+    "description": "Interactive Portfolio Website including a simplistic database for project management.",
+    "image": "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnR0aWNycWlnZ3RqdHNyemh1eXp4MjhzZnQ1NnowOHdyY3NzYmNlZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sthmCnCpfr8M8jtTQy/giphy.gif",
+    "tags": ["Angular (Typescript)", "HTML", "Tailwind CSS", "PostgreSQL", "Docker"],
+    "github": "https://github.com/n0tgrain/portfolio-website"
+  },
+  {
+    "id": "placeholder-1",
+    "title": "Placeholder",
+    "description": "Placeholder description",
+    "image": "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnR0aWNycWlnZ3RqdHNyemh1eXp4MjhzZnQ1NnowOHdyY3NzYmNlZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sthmCnCpfr8M8jtTQy/giphy.gif",
+    "tags": ["Yap", "Yap", "Yap"],
+    "github": "https://github.com/n0tgrain/portfolio-website"
+  },
+  {
+    "id": "placeholder-2",
+    "title": "Placeholder",
+    "description": "Placeholder description",
+    "image": "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnR0aWNycWlnZ3RqdHNyemh1eXp4MjhzZnQ1NnowOHdyY3NzYmNlZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sthmCnCpfr8M8jtTQy/giphy.gif",
+    "tags": ["Yap", "Yap", "Yap"],
+    "github": "https://github.com/n0tgrain/portfolio-website"
+  },
+  {
+    "id": "placeholder-3",
+    "title": "Placeholder",
+    "description": "Placeholder description",
+    "image": "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnR0aWNycWlnZ3RqdHNyemh1eXp4MjhzZnQ1NnowOHdyY3NzYmNlZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sthmCnCpfr8M8jtTQy/giphy.gif",
+    "tags": ["Yap", "Yap", "Yap"],
+    "github": "https://github.com/n0tgrain/portfolio-website"
+  },
+  {
+    "id": "placeholder-4",
+    "title": "Placeholder",
+    "description": "Placeholder description",
+    "image": "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnR0aWNycWlnZ3RqdHNyemh1eXp4MjhzZnQ1NnowOHdyY3NzYmNlZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sthmCnCpfr8M8jtTQy/giphy.gif",
+    "tags": ["Yap", "Yap", "Yap"],
+    "github": "https://github.com/n0tgrain/portfolio-website"
+  }
+]
