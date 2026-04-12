@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import {Router, RouterLink} from '@angular/router';
 import {NgClass} from '@angular/common';
+import { NavLinkModel } from './navLink-model';
 
 @Component({
   selector: 'app-navbar',
